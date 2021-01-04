@@ -16,7 +16,7 @@ html {
 /* ボタンの全体デザイン */
 .btn,
 button.btn {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 1.5;
   position: relative;
@@ -44,6 +44,7 @@ body {
     background-color: #FFF7D9;
     height: 100％;
     font-weight: 600;
+    font-size: 1.6rem;
 }
 /* ヘッダー部分のデザイン */
 .headerTitle {
@@ -53,7 +54,7 @@ body {
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 30px;
+    font-size: 5rem;
     font-weight: 900;
     font-family: 'Noto Sans JP', sans-serif;;
 }
@@ -72,6 +73,7 @@ body {
     border-style: solid;
     background-color: #f6f6f6;
     width: 25rem;
+    height: 2.5rem;
 }
 
 /* 検索バーのボタンデザイン */
@@ -152,7 +154,7 @@ button.btn--radius {
     align-items: center;
 }
 .stock {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     justify-content: flex-end;
 }
 .digit {

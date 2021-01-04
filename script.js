@@ -7,6 +7,6 @@ $(function() {
 });
 // $(function() {
 //     $('#search').click(function() {
-//         $('.list_box').slideDown();
+//         $('.list_box').slideUp(1500);
 //     });
 // });
