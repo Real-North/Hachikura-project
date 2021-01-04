@@ -1,0 +1,172 @@
+/* 全ての要素にかけるデザイン*/
+*:before,
+*:after {
+    font-family: 'Noto Sans JP', sans-serif;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;/*rem算出をしやすくするために*/
+  height: 100％;
+}
+
+/* ボタンの全体デザイン */
+.btn,
+button.btn {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: white;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+}
+
+body {
+    margin: 0%;
+    background-color: #FFF7D9;
+    height: 100％;
+    font-weight: 600;
+}
+/* ヘッダー部分のデザイン */
+.headerTitle {
+    display: flex;
+    background-color: #ffc700;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Noto Sans JP', sans-serif;;
+}
+
+/* 検索バーあたりのデザイン */
+.searchingBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+.searchingInput {
+    margin-right: 10px;
+    border-radius: 0.5rem;
+    border-color: #C4C4C4;
+    border-style: solid;
+    background-color: #f6f6f6;
+    width: 25rem;
+}
+
+/* 検索バーのボタンデザイン */
+.btn--orange,
+button.btn--orange {
+  color: #fff;
+  background-color: #ffc700;
+}
+.btn--orange:hover,
+button.btn--orange:hover {
+  color: #fff;
+  background: #f56500;
+}
+
+.list_box {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.choosingItems {
+    align-items: baseline;
+    display: flex;
+    justify-content: flex-end;
+}
+.choosing {
+    font-size: 1.5rem;
+}
+
+/* 在庫をゼロにするボタンのデザイン */
+.btn--blue,
+button.btn--blue {
+  color: #fff;
+  background-color: #5BCEFF;
+}
+.btn--blue:hover,
+button.btn--blue:hover {
+  color: #fff;
+  background: #009bdd;
+}
+
+button.btn--radius {
+   border-radius: 100vh;
+}
+.choosingItems p {
+    margin-right: 10px;
+
+}
+
+/* リスト全体のデザイン */
+.list {
+    margin-top: 10px;
+    align-items: center;
+    height: 75vh;
+    overflow: scroll;
+
+}
+/* ハイイエローのデザイン */
+.itemList{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.itemName {
+    flex: 3;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.itemStock {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.stock {
+    font-size: 1.2rem;
+    justify-content: flex-end;
+}
+.digit {
+    margin-left: 1rem;
+}
+
+.buttonIncDec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+}
+
+.buttonIncDec div {
+    margin-left: 5px;
+    margin-right: 5px;
+}

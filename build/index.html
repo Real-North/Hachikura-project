@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>HachikuraAdmin</title>
+    <!-- CSSを読み込んでたりする -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- 下の2行でGoogleフォントをネットから読み込んでる -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;900&display=swap" rel="stylesheet"></head>
+<body>
+    <!-- ヘッダー部分 -->
+     <header class="headerTitle">
+         HachikuraAdmin
+     </header>
+
+     <!-- 検索バーのあたり -->
+     <div class="searchingBar">
+        <input type="text" class="searchingInput">
+        <button class="btn btn--orange">検索</button>
+     </div>
+
+     <!-- 選択中の数字表示あたり -->
+     <div class="list_box">
+        <div class="choosingItems">
+            <p>選択中</p>
+            <p class="choosing">999</p>
+            <p>件</p>
+            <button class="btn btn--blue btn--radius">在庫をゼロにする</button>
+        </div>
+
+        <!-- リスト一覧のあたり -->
+        <!-- とりあえず最初にできたdivを複製しただけ -->
+        <div class="list">
+              <div class="itemList">
+                  <div class="itemName">
+                      ハイイエロー
+                  </div>
+                  <div class="itemStock">
+                      <div class="stock">
+                          20
+                      </div>
+                      <div class="digit">
+                          匹
+                      </div>
+                  </div>
+                  <div class="buttonIncDec">
+                       <button>
+                           -
+                       </button>
+                       <div>
+                           20
+                       </div>
+                       <button>
+                           +
+                       </button>
+                  </div>
+                  <button class="btn btn--orange">
+                      保存
+                  </button>
+            </div>
+        </div>
+
+</body>
+</html>
